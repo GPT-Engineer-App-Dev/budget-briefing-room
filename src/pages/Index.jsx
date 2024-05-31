@@ -2,8 +2,9 @@ import { Box, Container, Flex, Heading, Image, Link, Text, VStack } from "@chakr
 import { NavLink } from "react-router-dom";
 
 const Index = () => {
+  document.body.style.backgroundColor = "#f3f2ef";
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="#f3f2ef">
       <Flex direction={{ base: "column", md: "row" }} justify="space-between">
         <Box flex="3" mr={{ md: 4 }}>
           <Heading as="h2" size="lg" mb={4}>Latest News</Heading>
